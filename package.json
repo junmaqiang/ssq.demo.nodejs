@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-pipeline",
+  "version": "1.0.0",
+  "description": "A simple Node.js project for Jenkins pipeline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "junmaqiang",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
