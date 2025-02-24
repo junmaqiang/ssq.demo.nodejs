@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "lint": "eslint .",
-    "test": "mocha"
+    "test": "mocha",
+    "build": "echo 'Building the project...' && mkdir -p dist && cp -r public/* dist/"
   },
   "author": "junmaqiang",
   "license": "MIT",
