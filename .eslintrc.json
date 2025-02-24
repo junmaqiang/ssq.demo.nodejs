@@ -30,5 +30,13 @@
       "error",
       "always"
     ]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["test/**/*.js"],
+      "rules": {
+        "node/no-unpublished-require": "off"
+      }
+    }
+  ]
 }
