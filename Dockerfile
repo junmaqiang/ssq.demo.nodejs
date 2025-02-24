@@ -12,7 +12,7 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 5007
+EXPOSE 3000
 
 # 启动应用程序
 CMD [ "npm", "start" ]
